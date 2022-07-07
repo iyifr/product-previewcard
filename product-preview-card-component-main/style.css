@@ -71,9 +71,20 @@ body {
         background-color: hsl(158, 36%, 37%);
         margin-top: 40px;
         min-height: 50px;
-        color: white;
-        font-size: larger;
+        padding: auto;
+        
         border: none;
+    }
+
+    button p {
+        color: white;
+        font-size: 17px;
+        display: inline-block;
+        margin: 3px;
+    }
+
+    svg {
+        margin: px;
     }
 
     }
