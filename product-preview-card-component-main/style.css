@@ -92,21 +92,26 @@ body {
 
     }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
     .product-box {
-        max-width: 325px;
-        margin: 50px 40px;
+        min-width: 700px;
+        min-height: 400px;
+        margin-top: 5%;
+    
+        display: flex;
+        flex-direction: row;
         }
 
+
     .image-box {
-        max-width: 380px;
-        min-height: 40vh;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
-        border-bottom: none;
+        min-width: 50%;
+        min-height: inherit;
         background-image: url(images/parfumobile.jpg);
         background-position: center;
         background-size: cover;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
     }
      
 
@@ -131,8 +136,10 @@ body {
     .text-box {
         padding: 20px;
         background-color: white;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    
     }
 
     .prices-box {
